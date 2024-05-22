@@ -2,9 +2,7 @@ package org.haje.ducks;
 
 import java.awt.*;
 
-public class MallardDuck {
-    public int x;
-    public int y;
+public class MallardDuck extends Duck{
 
     public MallardDuck(int x, int y) {
         this.x = x;

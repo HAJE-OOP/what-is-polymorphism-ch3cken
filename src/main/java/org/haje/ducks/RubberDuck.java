@@ -2,9 +2,7 @@ package org.haje.ducks;
 
 import java.awt.*;
 
-public class RubberDuck {
-    public int x;
-    public int y;
+public class RubberDuck extends Duck {
 
     public RubberDuck(int x, int y) {
         this.x = x;

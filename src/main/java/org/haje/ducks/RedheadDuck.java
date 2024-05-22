@@ -2,9 +2,7 @@ package org.haje.ducks;
 
 import java.awt.*;
 
-public class RedheadDuck {
-    public int x;
-    public int y;
+public class RedheadDuck extends Duck{
 
     public RedheadDuck(int x, int y) {
         this.x = x;
